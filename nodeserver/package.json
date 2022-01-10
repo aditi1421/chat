@@ -1,0 +1,25 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for our chat application",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditi1421/chat.git"
+  },
+  "author": "Aditi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditi1421/chat/issues"
+  },
+  "homepage": "https://github.com/aditi1421/chat#readme",
+  "dependencies": {
+    "index.js": "^0.0.3",
+    "mon": "^0.0.8",
+    "node": "^17.3.0",
+    "socket.io": "^4.4.1"
+  }
+}
